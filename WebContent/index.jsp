@@ -13,13 +13,13 @@
 			<tr>
 				<td width="100px" style="border: 1px solid #ccc;">招聘对象</td>
 				<td width="400px" style="border: 1px solid #ccc;">
-					<input type="text" placeholder="行业客户经理" name="text"/>
+					<input type="text" placeholder="行业客户经理" name="text" size="20"/>
 				</td>
 			</tr>
 			<tr>
 				<td width="100px" style="border: 1px solid #ccc;">招聘人数</td>
 				<td width="400px" style="border: 1px solid #ccc;">
-					<input type="text" placeholder="2" name="text"/>人
+					<input type="text" placeholder="2" name="text" size="3"/>人
 				</td>
 			</tr>
 			<tr>
@@ -31,7 +31,7 @@
 			<tr>
 				<td width="100px" style="border: 1px solid #ccc;">工资待遇</td>
 				<td width="400px" style="border: 1px solid #ccc;">
-					<input type="text" placeholder="面议" name="text"/>
+					<input type="text" placeholder="面议" name="text" size="3"/>
 				</td>
 			</tr>
 			<tr>
@@ -43,7 +43,7 @@
 			<tr>
 				<td width="100px" style="border: 1px solid #ccc;">有效期限</td>
 				<td width="400px" style="border: 1px solid #ccc;">
-					<input type="text" placeholder="20" name="text"/>天
+					<input type="text" placeholder="20" name="text" size="3"/>天
 				</td>
 			</tr>
 			<tr>
@@ -56,7 +56,7 @@
 				</td>
 			</tr>
 			<tr>
-				<td>
+				<td colspan="2" style="text-align: center;">
 					<input type="submit" value="确定">&nbsp;
 					<input type="submit" value="取消">
 				</td>
