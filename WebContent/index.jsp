@@ -4,10 +4,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>初始化内容</title>
+<title>练习1</title>
 </head>
 <body> 
 	<center>
+	<form action="" method="post">
 		<table width="1000px" height="100px" style="border: 1px solid #ccc;">
 			<tr>
 				<td width="100px" style="border: 1px solid #ccc;">招聘对象</td>
@@ -54,7 +55,14 @@
 					</div>
 				</td>
 			</tr>
+			<tr>
+				<td>
+					<input type="submit" value="确定">&nbsp;
+					<input type="submit" value="取消">
+				</td>
+			</tr>
 		</table>
+	</form>
 	</center>
 	
 	<!-- z注意，只需要引进JS，无需要引用任何CSS -->
